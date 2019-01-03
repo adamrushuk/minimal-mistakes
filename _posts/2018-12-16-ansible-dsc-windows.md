@@ -6,7 +6,7 @@ categories:
   - dsc
   - windows
   - centos
-toc: false
+toc: true
 comments: true
 ---
 
@@ -51,7 +51,6 @@ Installing Ansible was as simple as adding these lines to the [Vagrantfile confi
 yum -y install epel-release
 yum -y install ansible
 yum -y install python-pip
-yum -y install tree
 pip install --upgrade pip
 pip install pywinrm
 ```
@@ -89,7 +88,7 @@ by step [README](https://github.com/adamrushuk/Ansible-Windows/blob/master/READM
 I'm happy to help with any questions or build errors, so please
 [submit a new issue](https://github.com/adamrushuk/Ansible-Windows/issues/new) if you require any assistance.
 
-### Credits
+### Acknowledgements
 
 Although Ansible is easy to set up and configure, the simple Playbook examples and other tips were gathered from
 the many excellent presentations by Trond Hindenes, and Matt Davis.
