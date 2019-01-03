@@ -10,6 +10,8 @@ toc: true
 comments: true
 ---
 
+**Updated: 2019-01-03** Changed CentOS Vagrant box to 7.6 and now using PIP for Ansible installation.
+
 ## Scenario
 
 For the past year or so I've been teaching my friend [Steve](https://github.com/steevaavoo) about the many tools
