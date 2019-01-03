@@ -45,13 +45,13 @@ I've created a repo for testing Ansible and DSC on Windows, with a view to port 
 
 ### Ansible Control VM
 
-Installing Ansible was as simple as adding these lines to the [Vagrantfile configuration](https://github.com/adamrushuk/Ansible-Windows/blob/master/Vagrantfile#L53-L62):
+Installing Ansible was as simple as adding the following few lines:
 
 ```bash
-yum -y install epel-release
-yum -y install ansible
+yum -y install epel-release --enablerepo=extras
+yum -y update
 yum -y install python-pip
-pip install --upgrade pip
+pip install ansible --upgrade
 pip install pywinrm
 ```
 
@@ -60,13 +60,13 @@ pip install pywinrm
 Building the Windows VMs also only required a few provisioning steps in their [Vagrantfile configuration](https://github.com/adamrushuk/Ansible-Windows/blob/master/Vagrantfile#L88-L94):
 
 ```bash
-    # Provisioning
-    # Reset Windows license
-    subconfig.vm.provision 'shell', inline: 'cscript slmgr.vbs /rearm //B //NOLOGO'
-    # Configure remoting for Ansible
-    subconfig.vm.provision 'shell', path: 'Vagrant/Scripts/ConfigureRemotingForAnsible.ps1'
-    # Reboot VM
-    subconfig.vm.provision :reload
+# Provisioning
+# Reset Windows license
+subconfig.vm.provision 'shell', inline: 'cscript slmgr.vbs /rearm //B //NOLOGO'
+# Configure remoting for Ansible
+subconfig.vm.provision 'shell', path: 'Vagrant/Scripts/ConfigureRemotingForAnsible.ps1'
+# Reboot VM
+subconfig.vm.provision :reload
 ```
 
 **NOTE:** There were issues with the latest versions of VirtualBox (5.2.22) / Vagrant (2.2.1) during initial testing, where
@@ -79,9 +79,8 @@ choco install vagrant --version 2.1.5
 
 ### Step by Step Build and Test Guide
 
-Head over to
-[https://github.com/adamrushuk/Ansible-Windows](https://github.com/adamrushuk/Ansible-Windows) and follow the step
-by step [README](https://github.com/adamrushuk/Ansible-Windows/blob/master/README.md) to test it out locally using Vagrant and VirtualBox.
+Visit [https://github.com/adamrushuk/Ansible-Windows](https://github.com/adamrushuk/Ansible-Windows) and follow the step
+by step [README](https://github.com/adamrushuk/Ansible-Windows/blob/master/README.md) to test Ansible with Windows locally using Vagrant and VirtualBox.
 
 ### Support
 
