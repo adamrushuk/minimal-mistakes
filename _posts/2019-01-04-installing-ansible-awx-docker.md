@@ -53,13 +53,19 @@ and AWX. My configuration is shown below:
 Once the Vagrant build has finished, you can check the progress of the final import / migration tasks within
 Docker by following the steps below:
 
-1. From within the cloned repo folder (eg `~\Code\Ansible-Windows`), connect to the Ansible Control VM by running:  
-`vagrant ssh ansible01`
-1. List running containers:  
-`sudo docker ps`
-1. Tail the logs for awx_task:  
-`sudo docker logs -f awx_task`
-1. Once migrations complete you will see messages like those below (amongst the many DEBUG messages):
+1. From within the cloned repo folder (eg `~\Code\Ansible-Windows`), connect to the Ansible Control VM by running:
+    ```bash
+    vagrant ssh ansible01
+    ```
+1. List running containers:
+    ```bash
+    sudo docker ps
+    ```
+1. Tail the logs for the `awx_task` container:
+    ```bash
+    sudo docker logs -f awx_task
+    ```
+1. Once migrations are complete you will see messages like those shown below (amongst the many DEBUG messages):
 
 ```bash
 # Initial migration log messages
