@@ -118,5 +118,8 @@ yum -y install docker-python
 pip install docker-compose
 ```
 
-I then added the [Docker SDK for Python](https://pypi.org/project/docker/) via PIP using:  
-`pip install docker`
+I then added the [Docker SDK for Python](https://pypi.org/project/docker/) via PIP using:
+
+```bash
+pip install docker
+```
