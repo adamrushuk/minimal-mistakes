@@ -123,3 +123,8 @@ I then added the [Docker SDK for Python](https://pypi.org/project/docker/) via P
 ```bash
 pip install docker
 ```
+
+## What's Next?
+
+Check out my next blog post where I go over the steps for
+[testing Ansible AWX with Windows hosts](https://adamrushuk.github.io/testing-ansible-awx-windows-hosts/).

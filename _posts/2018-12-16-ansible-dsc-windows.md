@@ -94,7 +94,7 @@ I'm happy to help with any questions or build errors, so please
 Although Ansible is easy to set up and configure, the simple Playbook examples and other tips were gathered from
 the many excellent presentations by Trond Hindenes, and Matt Davis.
 
-### What's Next?
+## What's Next?
 
 Ansible is very powerful out of the box, yet some users may miss using a GUI, and other features like RBAC and
 reporting.
