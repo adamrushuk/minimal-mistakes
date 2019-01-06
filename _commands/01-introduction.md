@@ -1,5 +1,5 @@
 ---
-title: "Useful Commands"
+title: "Command Reference"
 permalink: /commands/introduction/
 toc: false
 ---

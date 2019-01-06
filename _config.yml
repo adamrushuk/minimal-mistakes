@@ -255,9 +255,9 @@ collections:
   commands:
     output: true
     permalink: /:collection/:path/
-  pipeline:
-    output: true
-    permalink: /:collection/:path/
+  # pipeline:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # Defaults
@@ -296,14 +296,14 @@ defaults:
         nav: "commands"
 
   # _pipeline collection
-  - scope:
-      path: ""
-      type: pipeline
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: true
-      comments: false
-      sidebar:
-        nav: "pipeline"
+  # - scope:
+  #     path: ""
+  #     type: pipeline
+  #   values:
+  #     layout: single
+  #     read_time: false
+  #     author_profile: false
+  #     share: true
+  #     comments: false
+  #     sidebar:
+  #       nav: "pipeline"
