@@ -11,7 +11,7 @@ comments: true
 
 ## Scenario
 
-After [installing Ansible to test within a Windows environment](https://adamrushuk.github.io/ansible/dsc/windows/centos/ansible-dsc-windows/),
+After [installing Ansible to test within a Windows environment](https://adamrushuk.github.io/ansible-dsc-windows/),
 I wanted to explore other methods of administering and using Ansible other than from the commandline.
 
 ## Solution
