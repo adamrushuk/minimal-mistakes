@@ -4,6 +4,8 @@ description: Azure Credential Error When Adding to a Job Template via Ansible To
 categories:
   - azure
   - ansible
+  - ansible-tower
+  - awx
   - cli
   - error
   - fix

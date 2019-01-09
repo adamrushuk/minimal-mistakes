@@ -3,6 +3,8 @@ title: Testing Ansible AWX with Windows Hosts
 description: Testing Ansible AWX with Windows Hosts
 categories:
   - ansible
+  - ansible-tower
+  - awx
   - windows
 toc: true
 comments: true

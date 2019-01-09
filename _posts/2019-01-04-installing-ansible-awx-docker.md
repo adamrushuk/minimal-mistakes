@@ -3,6 +3,8 @@ title: Installing Ansible AWX using Docker
 description: Installing Ansible AWX using Docker within a Vagrant environment
 categories:
   - ansible
+  - ansible-tower
+  - awx
   - docker
   - centos
 toc: true
