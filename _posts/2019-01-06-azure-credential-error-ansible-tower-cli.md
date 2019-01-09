@@ -1,9 +1,9 @@
 ---
-title: Error Adding Azure Credential to a Job Template via Ansible Tower CLI
-description: Error Adding Azure Credential to a Job Template via Ansible Tower CLI
+title: Azure Credential Error When Adding to a Job Template via Ansible Tower CLI
+description: Azure Credential Error When Adding to a Job Template via Ansible Tower CLI
 categories:
-  - ansible
   - azure
+  - ansible
   - cli
   - error
   - fix
