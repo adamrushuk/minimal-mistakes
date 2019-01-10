@@ -89,7 +89,7 @@ This script will:
 1. Create an Azure Credential resource in AWX, using the Azure credentials from `azure_ansible_credentials.yml`
 1. Create an Azure Job Template in AWX, using the above resources
 
-{% gist aac1146af536e4648d5c7644d0beca10 .sh %}
+{% gist aac1146af536e4648d5c7644d0beca10 configure_ansible_awx.sh %}
 
 ### azure_ansible_credentials.yml
 
