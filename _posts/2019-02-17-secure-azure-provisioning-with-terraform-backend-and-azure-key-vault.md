@@ -1,15 +1,16 @@
 ---
-title: 
+title: Secure Azure Provisioning with Terraform Backend and Azure Key Vault
 description: Secure Azure Provisioning with Terraform Backend and Azure Key Vault
-categories: Secure Azure Provisioning with Terraform Backend and Azure Key Vault
+categories: 
   - terraform
   - azure
   - powershell
 toc: true
+toc_sticky: true
 comments: true
+header:
+  image: /assets/images/logos/logo-text-8c3ba8a6.svg
 ---
-
-![Terraform](/assets/images/logos/logo-text-8c3ba8a6.svg)
 
 ## Scenario
 
