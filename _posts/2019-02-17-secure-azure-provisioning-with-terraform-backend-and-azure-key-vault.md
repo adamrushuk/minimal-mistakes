@@ -63,9 +63,10 @@ the PowerShell session. Happy days!
 There were quite a few manual tasks to complete for all this to work, so I created two PowerShell scripts to do the
 heavy lifting.
 
-### ConfigureAzureForSecureTerraformAccess.ps1
+### Configure Azure For Secure Terraform Access Script
 
-The [ConfigureAzureForSecureTerraformAccess.ps1 script](https://github.com/adamrushuk/terraform-azure/blob/master/scripts/ConfigureAzureForSecureTerraformAccess.ps1) configures Azure for secure Terraform access using Azure Key Vault.
+The [ConfigureAzureForSecureTerraformAccess.ps1](https://github.com/adamrushuk/terraform-azure/blob/master/scripts/ConfigureAzureForSecureTerraformAccess.ps1)
+script configures Azure for secure Terraform access using Azure Key Vault.
 
 The following steps are automated:
 
@@ -82,10 +83,10 @@ The following steps are automated:
     - ARM_TENANT_ID
     - ARM_ACCESS_KEY
 
-### LoadAzureTerraformSecretsToEnvVars.ps1
+### Load Azure Terraform Secrets to Environment Variables Script
 
-The [LoadAzureTerraformSecretsToEnvVars.ps1 script](https://github.com/adamrushuk/terraform-azure/blob/master/scripts/LoadAzureTerraformSecretsToEnvVars.ps1)
-loads Azure Key Vault secrets into Terraform environment variables for the current PowerShell session.
+The [LoadAzureTerraformSecretsToEnvVars.ps1](https://github.com/adamrushuk/terraform-azure/blob/master/scripts/LoadAzureTerraformSecretsToEnvVars.ps1)
+script loads Azure Key Vault secrets into Terraform environment variables for the current PowerShell session.
 
 The following steps are automated:
 
