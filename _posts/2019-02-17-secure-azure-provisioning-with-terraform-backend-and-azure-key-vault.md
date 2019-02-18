@@ -8,8 +8,8 @@ categories:
 toc: true
 toc_sticky: true
 comments: true
-header:
-  image: /assets/images/logos/logo-text-8c3ba8a6.svg
+# header:
+#   image: /assets/images/logos/logo-text-8c3ba8a6.svg
 ---
 
 ## Scenario
